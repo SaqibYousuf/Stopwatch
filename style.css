@@ -1,0 +1,49 @@
+@font-face{
+    src: url(digital-7\ \(mono\).ttf);
+    font-family: digital;
+}
+.stopwatch{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(243, 243, 243);
+    align-items: center;
+}
+.heading{
+ border-bottom: 1px solid rgb(226, 226, 226);
+ width: 100%;
+ text-align: center;
+}
+.screen{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+justify-content: space-around;
+}
+.screen h1{
+    padding: 10px;
+    font-family: digital;
+    font-size: 40px;
+}
+.buttons button{
+    width: 32.8%;
+    height: 60px;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-weight: 600;
+
+}
+.buttons button:hover{
+     background-color: rgb(235, 235, 235);
+}
+.buttons{
+    width: 100%;
+ border-top: 1px solid rgb(226, 226, 226);
+}
